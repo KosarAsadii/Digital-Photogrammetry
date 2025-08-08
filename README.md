@@ -35,8 +35,3 @@ git lfs track "*.tif" "*.tiff"
 1. Put your images/data in the `Data/` folder.
 2. Open `Digital_Photogrammetry.ipynb` in Jupyter/VS Code and update any file paths to point to `Data/<yourfile>`.
 3. Run the cells.
-
-6. Push:
-   ```bash
-   git push -u origin main
-   ```
