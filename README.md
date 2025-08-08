@@ -1,6 +1,6 @@
 # Digital Photogrammetry
 
-A minimal, push-ready project containing a Jupyter notebook (**Digital_Photogrammetry.ipynb**) and a **Data/** folder where required datasets/images should be placed.
+
 
 ## Requirements
 - Python 3.9+
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 Digital Photogrammetry/
 ├─ Data/
-│  └─ (your data files: .tif, .jpg, ...)
+│  └─ (data files: .tif, .jpg, ...)
 ├─ Digital_Photogrammetry.ipynb
 ├─ requirements.txt
 ├─ .gitignore
@@ -36,30 +36,6 @@ git lfs track "*.tif" "*.tiff"
 2. Open `Digital_Photogrammetry.ipynb` in Jupyter/VS Code and update any file paths to point to `Data/<yourfile>`.
 3. Run the cells.
 
-## Publish to GitHub — step by step
-1. Create a new repository in your GitHub account (e.g., **Digital-Photogrammetry**) under `github.com/KosarAsadii`.
-2. In your terminal, go to the project folder (quotes are needed because the folder name has a space):
-   ```bash
-   cd "D:\KNTU\Term1\Digital Photogrammetry\Exercise\Digital Photogrammetry"
-   ```
-3. (Optional) Test the environment:
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-4. Initialize Git, (optionally) set up LFS, commit:
-   ```bash
-   git init
-   git lfs install
-   git add .
-   git commit -m "Initial commit: Digital Photogrammetry notebook and data structure"
-   git branch -M main
-   ```
-5. Add the remote (adjust if you chose a different repo name):
-   ```bash
-   git remote add origin https://github.com/KosarAsadii/Digital-Photogrammetry.git
-   ```
 6. Push:
    ```bash
    git push -u origin main
